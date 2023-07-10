@@ -1,0 +1,124 @@
+.data_line_page1 {
+    border: 1px solid rgb(216, 214, 214);
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+}
+
+.data_line_page1>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+ol {
+    font-weight: bold;
+}
+
+.Page_1>table {
+    /* border: 1px solid red; */
+    width: 100%;
+    /* border-collapse: separate; */
+    border-spacing: 0 10px;
+}
+
+.Page_1 table th {
+    background-color: cornflowerblue;
+    height: 40px;
+    border: 1px solid rgb(70, 70, 72);
+
+}
+
+.Page_1 table td {
+    background-color: rgb(181, 216, 247);
+    border: 1px solid rgb(46, 46, 46);
+    height: 30px;
+}
+
+.addUserBTN {
+    width: 300px;
+    margin: 30px;
+    padding: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.addUserBTN:hover {
+    background-color: rgb(59, 122, 240);
+}
+
+.Page_2 {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.Page_2 input {
+    width: 95%;
+    height: 30px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.Page_2>div {
+    display: flex;
+    justify-content: center;
+}
+
+.Page_2>div>button {
+    /* border: 1px solid green; */
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.page2_submit_btn {
+    color: white;
+    border: none;
+    background-color: cornflowerblue;
+    width: 100%;
+    padding: 7px;
+    font-size: 18px;
+}
+
+.Btn_background_change_false {
+    background-color: cornflowerblue;
+}
+
+.Btn_background_change_true {
+    background-color: cornflowerblue;
+}
+
+.Page2_goBack {
+    cursor: pointer;
+    color: blue;
+    border: none;
+    background-color: unset;
+    font-size: 16px;
+}
+
+.page3_gobak {
+    background-color: cornflowerblue;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 100px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.page3_gobak:hover {
+    background-color: goldenrod;
+}
