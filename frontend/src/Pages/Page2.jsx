@@ -24,7 +24,7 @@ export default function Page2() {
             email,
             phone
         }
-        await fetch('http://localhost:8080/users/add', {
+        await fetch('https://troubled-outfit-bat.cyclic.app/users/add', {
             method: 'POST',
             body: JSON.stringify(obj),
             headers: {
@@ -52,7 +52,7 @@ export default function Page2() {
             phone: phone || user.phone
         }
 
-        await fetch(`http://localhost:8080/users/edit/${updateID}`, {
+        await fetch(`https://troubled-outfit-bat.cyclic.app/users/edit/${updateID}`, {
             method: 'PATCH',
             body: JSON.stringify(obj),
             headers: {

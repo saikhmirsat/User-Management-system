@@ -16,7 +16,7 @@ export default function Page1() {
 
     const getData = async () => {
         try {
-            await fetch('http://localhost:8080/users')
+            await fetch('https://troubled-outfit-bat.cyclic.app/users')
                 .then((res) => res.json())
                 .then((res) => {
                     setUserData(res)
@@ -55,7 +55,7 @@ export default function Page1() {
     const Deletefunc = async (id) => {
         console.log(id)
         try {
-            await fetch(`http://localhost:8080/users/delete/${id}`, {
+            await fetch(`https://troubled-outfit-bat.cyclic.app/users/delete/${id}`, {
                 method: 'DELETE'
             }).then((res) => res.json())
                 .then((res) => {

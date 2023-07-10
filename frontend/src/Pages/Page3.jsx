@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react'
 import { useState } from 'react'
-import { Navigate, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 
 export default function Page3() {
@@ -14,7 +14,7 @@ export default function Page3() {
 
     const getData = async () => {
         try {
-            await fetch(`http://localhost:8080/users/${id}`)
+            await fetch(`https://troubled-outfit-bat.cyclic.app/users/${id}`)
                 .then((res) => res.json())
                 .then((res) => {
                     setUser(res)
