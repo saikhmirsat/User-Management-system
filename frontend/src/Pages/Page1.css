@@ -63,6 +63,8 @@ ol {
 }
 
 .Page_2 input {
+    border: 1px solid rgb(178, 175, 175);
+    border-radius: 5px;
     width: 95%;
     height: 30px;
     margin-bottom: 15px;
@@ -121,4 +123,13 @@ ol {
 
 .page3_gobak:hover {
     background-color: goldenrod;
+}
+
+.loading_img_page_2_btn {
+    height: 20px;
+}
+
+.deleteBTNloading {
+    height: 10px;
+
 }
